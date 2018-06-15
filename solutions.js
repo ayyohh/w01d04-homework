@@ -36,13 +36,13 @@ console.log(checkPalindrome2("Radar"));
 
 
 
-// //will accecpts a number then adds its digits together
-// const sumDigits = (num) => {
-//   return (num - 1) % 9 + 1;
-//
-// }
-// console.log(sumDigits(82));
-//
+//will accecpts a number then adds its digits together
+const sumDigits = (num) => {
+  return (num - 1) % 9 + 1;
+
+}
+console.log(sumDigits(82));
+
 //
 //
 //
