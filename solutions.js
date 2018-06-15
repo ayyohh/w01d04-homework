@@ -75,20 +75,20 @@ console.log(sumArray([1, 2, 3, 4, 5, 6]));
 
 
 
-//
-// //will take a number and see if its a Prime number or not
-// const checkPrime = (num) => {
-//   for (let i = 2; i < num; i++) {
-//     if (num % i === 0) {
-//       return false;
-//     }
-//   }
-//   return num > 1;
-// }
-//
-// const printPrimes = (num) => {
-//   return console.log(checkPrime(num));
-//
-// }
-//
-// console.log(printPrimes(97));
+
+//will take a number and see if its a Prime number or not
+const checkPrime = (num) => {
+  for (let i = 2; i < num; i++) {
+    if (num % i === 0) {
+      return false;
+    }
+  }
+  return num > 1;
+}
+
+const printPrimes = (num) => {
+  return console.log(checkPrime(num));
+
+}
+
+console.log(printPrimes(97));
