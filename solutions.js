@@ -61,20 +61,20 @@ console.log(calculateSide(8, 6));
 
 
 
-//
-// //will take in array and calculate sum of the numbers in the array
-// const sumArray = (arr) => {
-//   let sum = 0;
-//   for (let i = arr.length; i--;){
-//     sum += arr[i];
-//   }
-//   return sum;
-// }
-//
-// console.log(sumArray([1, 2, 3, 4, 5, 6]));
-//
-//
-//
+
+//will take in array and calculate sum of the numbers in the array
+const sumArray = (arr) => {
+  let sum = 0;
+  for (let i = arr.length; i--;){
+    sum += arr[i];
+  }
+  return sum;
+}
+
+console.log(sumArray([1, 2, 3, 4, 5, 6]));
+
+
+
 //
 // //will take a number and see if its a Prime number or not
 // const checkPrime = (num) => {
