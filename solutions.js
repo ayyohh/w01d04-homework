@@ -43,24 +43,24 @@ const sumDigits = (num) => {
 }
 console.log(sumDigits(82));
 
-//
-//
-//
-//
-//
-//
-// //will calculate a^2 + b^2 = c^2 which is used to find the side of a triangle
-// const calculateSide = (num1, num2) => {
-//   return Math.sqrt(Math.pow(num1, 2) + Math.pow(num2, 2));
-// }
-//
-// console.log(calculateSide(8, 6));
-//
-//
-//
-//
-//
-//
+
+
+
+
+
+
+//will calculate a^2 + b^2 = c^2 which is used to find the side of a triangle
+const calculateSide = (num1, num2) => {
+  return Math.sqrt(Math.pow(num1, 2) + Math.pow(num2, 2));
+}
+
+console.log(calculateSide(8, 6));
+
+
+
+
+
+
 //
 // //will take in array and calculate sum of the numbers in the array
 // const sumArray = (arr) => {
